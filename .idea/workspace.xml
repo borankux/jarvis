@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b88961-7744-4336-8446-e5d91d686a74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Controllers/Api/IndexControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarvis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarvis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -23,6 +21,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="Jenkins.Settings">
+    <option name="username" value="mirzat" />
+    <option name="lastSelectedView" value="all" />
+    <option name="jenkinsVersion" value="VERSION_2" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -135,9 +138,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.Jenkins" />
   </component>
   <component name="RunManager" selected="PHPUnit.IndexControllerTest.testIndex">
     <configuration name="IndexControllerTest.testIndex" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -176,7 +180,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579458641185</updated>
-      <workItem from="1579458645015" duration="1508000" />
+      <workItem from="1579458645015" duration="2125000" />
+      <workItem from="1579461258482" duration="803000" />
     </task>
     <servers />
   </component>
@@ -184,10 +189,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Custom_Plugin_Repositories" timestamp="1579461168263">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Custom_Plugin_Repositories/0.0.1680.1050@0.0.1680.1050" timestamp="1579461168263" />
     <state x="498" y="136" key="#IndexControllerTest.testIndex" timestamp="1579460038596">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="498" y="136" key="#IndexControllerTest.testIndex/0.0.1680.1050@0.0.1680.1050" timestamp="1579460038596" />
+    <state x="440" y="190" key="#Plugins" timestamp="1579461321164">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1579461321164" />
     <state x="543" y="348" key="NewPhpClassDialog" timestamp="1579459945560">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -196,13 +209,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579459112602" />
-    <state x="348" y="163" key="SettingsEditor" timestamp="1579459932629">
+    <state x="348" y="163" key="SettingsEditor" timestamp="1579461997591">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="348" y="163" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579459932629" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579459870530">
+    <state x="348" y="163" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579461997591" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579461277285">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579459870530" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579461277285" />
   </component>
 </project>
