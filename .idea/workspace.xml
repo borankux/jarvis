@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b88961-7744-4336-8446-e5d91d686a74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -178,7 +179,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579458641185</updated>
       <workItem from="1579458645015" duration="2125000" />
-      <workItem from="1579461258482" duration="1277000" />
+      <workItem from="1579461258482" duration="1852000" />
+      <workItem from="1579464213084" duration="92000" />
     </task>
     <servers />
   </component>
@@ -206,10 +208,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="661" y="455" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579459112602" />
-    <state x="348" y="163" key="SettingsEditor" timestamp="1579461997591">
+    <state x="348" y="163" key="SettingsEditor" timestamp="1579462971620">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="348" y="163" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579461997591" />
+    <state x="348" y="163" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579462971620" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579461277285">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
