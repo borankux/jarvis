@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b88961-7744-4336-8446-e5d91d686a74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -181,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579458641185</updated>
       <workItem from="1579458645015" duration="2125000" />
-      <workItem from="1579461258482" duration="803000" />
+      <workItem from="1579461258482" duration="1108000" />
     </task>
     <servers />
   </component>
