@@ -2,4 +2,4 @@
 
 use Illuminate\Http\Request;
 
-Route::get('/', 'IndexContoller@index');
+Route::get('/', 'IndexController@index');
