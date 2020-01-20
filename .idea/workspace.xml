@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b88961-7744-4336-8446-e5d91d686a74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jenkinsSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Controllers/Api/IndexControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Controllers/Api/IndexControllerTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +179,7 @@
       <updated>1579458641185</updated>
       <workItem from="1579458645015" duration="2125000" />
       <workItem from="1579461258482" duration="1852000" />
-      <workItem from="1579464213084" duration="92000" />
+      <workItem from="1579464213084" duration="378000" />
     </task>
     <servers />
   </component>
