@@ -3,8 +3,6 @@
 
 namespace Tests\Feature\Controllers\Api;
 
-
-use App\Http\Controllers\Api\IndexController;
 use Tests\TestCase;
 
 class IndexControllerTest extends TestCase
