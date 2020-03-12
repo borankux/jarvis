@@ -1,0 +1,13 @@
+POST http://localhost:8000/api/project
+Content-Type: application/json
+
+{
+  "title": "This is a test project"
+}
+
+###
+
+GET http://localhost:8000/api/project
+Accept: application/json
+
+###

@@ -7,6 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
+    protected $fillable  = [
+        'title',
+        'readme',
+        'project_id',
+        'deadline',
+        'status'
+    ];
+
     public function project()
     {
         return $this->belongsTo(Project::class, 'project_id', 'id');

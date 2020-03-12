@@ -13,12 +13,14 @@ Personal digital planner
     - title
     - icon
     - readme
+    - status    
     - deadline
 
 - task
     - title
     - readme
     - deadline
+    - status
     - project_id
 
 - list

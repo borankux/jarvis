@@ -7,6 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+    protected $fillable = [
+        'title',
+        'icon',
+        'readme',
+        'deadline'
+    ];
+
     public function tasks()
     {
         return $this->hasMany(Task::class, 'project_id', 'id');

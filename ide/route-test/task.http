@@ -1,0 +1,9 @@
+POST http://localhost:8000/api/task
+Content-Type: application/json
+
+{
+  "title": "this is sample task",
+  "project_id": 1
+}
+
+###
