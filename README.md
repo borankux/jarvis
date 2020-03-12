@@ -24,3 +24,35 @@ Personal digital planner
 - list
     - id
     - name
+
+### APIs
+
+/auth/register
+    - post
+    
+/auth/login
+    - post
+
+/auth/logout
+    - post
+
+/user/profile
+    - get
+
+/project
+    - get
+    - post
+    - put
+    - delete
+    
+/task
+    - get
+    - post
+    - put
+    - delete
+    
+/list
+    - get
+    - post
+    - put
+    - delete

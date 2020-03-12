@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e8b88961-7744-4336-8446-e5d91d686a74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/TList.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_12_033413_create_tasks_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_12_033413_create_tasks_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +145,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
       <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
@@ -190,7 +190,7 @@
       <workItem from="1579461258482" duration="1852000" />
       <workItem from="1579464213084" duration="622000" />
       <workItem from="1583916979705" duration="235000" />
-      <workItem from="1583981698654" duration="2972000" />
+      <workItem from="1583981698654" duration="4546000" />
     </task>
     <servers />
   </component>
@@ -226,10 +226,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="348" y="163" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579462971620" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1583986607822">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1583989292529">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583986607822" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583989292529" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/1680.0.1920.1200/0.0.1680.1050@0.0.1680.1050" timestamp="1579483848285" />
   </component>
 </project>
