@@ -17,8 +17,8 @@ class CreateTasksTable extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->mediumText('readme')->nullable();
-            $table->bigIncrements('project_id');
-            $table->bigIncrements('list_id')->nullable();
+            $table->unsignedBigInteger('project_id');
+            $table->unsignedBigInteger('list_id')->nullable();
             $table->timestamps();
         });
     }
