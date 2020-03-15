@@ -13,4 +13,15 @@ class TaskController extends Controller
         $task = $this->taskService->create($request->all());
         return $this->success($task);
     }
+
+    public function get(Request $request, $taskId = null)
+    {
+        if(!$taskId) {
+            $tasks =  $this->taskService->getAll();
+            return $this-$this->success($tasks);
+        }
+
+        $task = $this->taskService->getOne($taskId);
+        return $this->success($task);
+    }
 }

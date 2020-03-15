@@ -43,7 +43,7 @@ class ProjectService extends BaseService
     public function update(int $id, array $params = []) :bool
     {
         $project = Project::find($id);
-        return $project::update($params);
+        return $project->update($params);
     }
 
     /**
@@ -52,6 +52,11 @@ class ProjectService extends BaseService
      */
     public function delete(int $id):bool
     {
-        return Project::find($id)->delete();
+        try {
+            return Project::find($id)->delete();
+        } catch (\Exception $e) {
+            \Log::error($e->getMessage());
+            return false;
+        }
     }
 }
