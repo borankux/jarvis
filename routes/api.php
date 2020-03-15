@@ -9,7 +9,7 @@ Route::post('/auth/register', 'AuthController@register');
 
 Route::get('/user', 'UserController@index');
 
-Route::get('/project/{projectId?}','ProjectController@get');
+Route::get('/project/{projectId?}','ProjectController@get')->middleware('cors');
 Route::post('/project','ProjectController@create');
 Route::put('/project','ProjectController@update');
 Route::delete('/project','ProjectController@delete');
