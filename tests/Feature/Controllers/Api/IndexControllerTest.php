@@ -10,11 +10,10 @@ class IndexControllerTest extends TestCase
     public function testIndex()
     {
         $dummyRespond = [
-            'page' => 'index',
-            'type' => 'api'
+            'version' => '1.0',
         ];
 
-        $res = $this->get('/api/');
+        $res = $this->get('/');
 
         $this->assertJson($res->content());
         $res->assertStatus(200);
