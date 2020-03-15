@@ -8,6 +8,21 @@ use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
+
+    /**
+     * todo  update task
+     * todo  delete task
+     * todo  moveToList
+     * todo  moveToProject
+     * todo  finish
+     */
+
+
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function create(Request $request)
     {
         $task = $this->taskService->create($request->all());

@@ -22,7 +22,6 @@ class ProjectController extends Controller
         if($projectId) {
             return $this->success($this->projectService->get($projectId));
         }
-
         return $this->success($this->projectService->getAll());
     }
 }

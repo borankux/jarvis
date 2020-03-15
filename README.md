@@ -58,3 +58,10 @@ Personal digital planner
     - post
     - put
     - delete
+
+### Todo 
+- [ ] add label module
+    - [ ] model
+    - [ ] controller
+    - [ ] routes
+    - [ ] service
