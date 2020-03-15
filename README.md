@@ -29,31 +29,31 @@ Personal digital planner
 
 ### APIs
 
-/auth/register
+- `/auth/register`
     - post
     
-/auth/login
+`/auth/login`
     - post
 
-/auth/logout
+- `/auth/logout`
     - post
 
-/user/profile
+- `/user/profile`
     - get
 
-/project
-    - get
-    - post
-    - put
-    - delete
-    
-/task
+- `/project`
     - get
     - post
     - put
     - delete
     
-/list
+- `/task`
+    - get
+    - post
+    - put
+    - delete
+    
+- `/list`
     - get
     - post
     - put
