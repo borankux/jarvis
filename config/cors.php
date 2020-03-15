@@ -33,6 +33,7 @@ return [
      */
     'allowed_origins' => [
         'http://localhost:8080',
+        'http://jarvis.mirzat.cn'
     ],
 
     /*
