@@ -32,7 +32,7 @@ Personal digital planner
 - `/auth/register`
     - post
     
-`/auth/login`
+- `/auth/login`
     - post
 
 - `/auth/logout`
