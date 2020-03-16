@@ -1,7 +1,7 @@
 version: 1.0
 commands:
   - composer install
-  - php artisan migrate
+  - php artisan migrate:status
   - ./vendor/bin/phpunit
 scripts:
   - bash ./test.sh
