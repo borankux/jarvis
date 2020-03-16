@@ -24,4 +24,12 @@ class ProjectController extends Controller
         }
         return $this->success($this->projectService->getAll());
     }
+
+    public function delete(Request $request, $projectId = null)
+    {
+        if(!$this->projectService->delete($projectId)){
+            return $this->failed("删除失败！");
+        }
+        return $this->success();
+    }
 }

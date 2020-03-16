@@ -9,10 +9,10 @@ Route::post('/auth/register', 'AuthController@register');
 
 Route::get('/user', 'UserController@index');
 
-Route::get('/project/{projectId?}','ProjectController@get');
+Route::get('/project/{project_id?}','ProjectController@get');
 Route::post('/project','ProjectController@create');
 Route::put('/project','ProjectController@update');
-Route::delete('/project','ProjectController@delete');
+Route::delete('/project/{project_id}','ProjectController@delete');
 
 Route::get('/task','TaskController@get');
 Route::post('/task','TaskController@create');

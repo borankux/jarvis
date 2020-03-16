@@ -53,7 +53,11 @@ class ProjectService extends BaseService
     public function delete(int $id):bool
     {
         try {
-            return Project::find($id)->delete();
+            $project =  Project::find($id);
+            if($project->tasks->isNotEmpty()) {
+                return false;
+            }
+            return $project->delete();
         } catch (\Exception $e) {
             \Log::error($e->getMessage());
             return false;
