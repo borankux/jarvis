@@ -39,4 +39,10 @@ class TaskController extends Controller
         $task = $this->taskService->getOne($taskId);
         return $this->success($task);
     }
+
+    public function finishTask($taskId = null)
+    {
+        $task = $this->taskService->finishTask($taskId);
+        return $this->success($task);
+    }
 }

@@ -3,7 +3,12 @@ Content-Type: application/json
 
 {
   "title": "this is sample task",
-  "project_id": 1
+  "project_id": 6
 }
+
+###
+
+PUT http://localhost:8000/api/task/finish/3
+Content-Type: application/json
 
 ###

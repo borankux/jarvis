@@ -18,6 +18,7 @@ Route::get('/task','TaskController@get');
 Route::post('/task','TaskController@create');
 Route::put('/task','TaskController@update');
 Route::delete('/task','TaskController@delete');
+Route::put('/task/finish/{task_id}', 'TaskController@finishTask');
 
 
 Route::get('/list', 'ListController@get');

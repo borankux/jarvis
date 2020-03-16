@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Services;
 
 
 use App\Http\Services\BaseService;
+use App\Libs\Constants;
 use App\Models\Task;
 
 class TaskService extends BaseService
@@ -59,5 +60,17 @@ class TaskService extends BaseService
     public function getOne(int $taskId):Task
     {
         return Task::find($taskId);
+    }
+
+    /**
+     * @param int $taskId
+     * @return Task
+     */
+    public function finishTask(int $taskId): Task
+    {
+        $task = Task::find($taskId);
+        $task->status = Constants::TASK_DONE;
+        $task->save();
+        return $task;
     }
 }
